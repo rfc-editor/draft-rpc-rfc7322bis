@@ -1,3 +1,3 @@
-# draft-rfc-editor-7322bis
+# draft-rpc-rfc7322bis
 
-Updated version of the RFC Style Guide.
+Draft updates to the RFC Style Guide.  
