@@ -33,7 +33,7 @@
     </author>
 	  
 	  
-    <date month="March" year="2023"/>
+    <date month="March" day="27" year="2023"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 and editorial policies currently in use for the RFC Series.  It
@@ -517,7 +517,7 @@ as Section 1.</t>
 to specify precise requirement levels for technical features.
 <xref target="RFC2119"/> and <xref target="RFC8174"/> define a default interpretation of these
 capitalized words in IETF documents.  If this interpretation is used,
-RFCs 2119 and 8174 must be cited ( as specified in RFCs 2119 and 8174) and included as a
+RFCs 2119 and 8174 must be cited (as specified in RFCs 2119 and 8174) and included as a
 normative reference.  Otherwise, the correct interpretation must be
 specified in the document.</t>
           <t>This section must appear as part of the body of the memo (as defined
@@ -960,6 +960,26 @@ information in the Author's Address section.</t>
 
 <xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml"/>
 <xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.8174.xml"/>	      
+
+<referencegroup anchor="BCP9" target="https://www.rfc-editor.org/info/bcp9">
+  <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2026.xml"/>
+  <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.5657.xml"/>
+  <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.6410.xml"/>
+  <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7100.xml"/>
+     <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7127.xml"/>
+     <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7475.xml"/>
+        <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.8789.xml"/>
+           <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.9282.xml"/>
+</referencegroup>
+
 
         <reference anchor="BCP18" target="https://www.rfc-editor.org/info/bcp18">
           <front>
