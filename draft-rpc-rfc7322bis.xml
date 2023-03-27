@@ -1,33 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-stylesheet type="text/xsl" href="rfc2629.xslt" ?>
-<?rfc toc="yes"?>
-<?rfc symrefs="yes"?>
-<?rfc sortrefs="yes"?>
-<?rfc compact="yes"?>
-<?rfc comments="yes"?>
-<?rfc inline="yes"?>
-<?rfc linkmailto="no" ?>
-<?rfc rfcedstyle="yes"?>
-<!DOCTYPE rfc SYSTEM "rfc2629-xhtml.ent">
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-flanagan-7322bis-07" category="info" obsoletes="7322" updates="" submissionType="IETF" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
+
+<!DOCTYPE rfc [
+<!ENTITY nbsp    "&#160;">
+<!ENTITY zwsp   "&#8203;">
+<!ENTITY nbhy   "&#8209;">
+<!ENTITY wj     "&#8288;">
+]>
+
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
   <front>
-    <title abbrev="7322-bis">RFC Style Guide</title>
-    <seriesInfo name="Internet-Draft" value="draft-flanagan-7322bis-05"/>
-    <author fullname="John Levine" initials="J." role="editor" surname="Levine">
-      <organization>Temporary RFC Series Project Manager</organization>
-      <address>
-        <email>standards@standcore.com</email>
-        <uri>http://orcid.org/0000-0001-7553-5024</uri>
-      </address>
-    </author>
+    <title abbrev="RFC Style Guide (rfc7322bis)">RFC Style Guide</title>
+    <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-00"/>
     <author initials="S." surname="Ginoza" fullname="Sandy Ginoza">
-      <organization>RFC Editor</organization>
+      <organization>RFC Production Center</organization>
       <address>
-        <email>rfc-editor@rfc-editor.org</email>
-        <uri>https://www.rfc-editor.org</uri>
+        <email>sginoza@rfc-editor.org</email>
       </address>
     </author>
-    <date year="2021"/>
+
+      <author initials="J." surname="Mahoney" fullname="Jean Mahoney">
+      <organization>RFC Production Center</organization>
+      <address>
+        <email>jmahoney@rfc-editor.org</email>
+      </address>
+    </author>
+	  
+      <author initials="A." surname="Russo" fullname="Alice Russo">
+      <organization>RFC Production Center</organization>
+      <address>
+        <email>arusso@amsl.com</email>
+      </address>
+    </author>
+	  
+	  
+    <date month="March" day="27" year="2023"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 and editorial policies currently in use for the RFC Series.  It
@@ -109,8 +115,7 @@ for review.  See Appendix A.2 for more information.</t>
     </section>
     <section anchor="rfc-style-conventions" toc="default">
       <name>RFC Style Conventions</name>
-      <t>This Style Guide does not use terminology as defined in RFC 2119
-<xref target="BCP14" format="default"/>.  In this document, lowercase use of "must" and "should"
+      <t>This Style Guide does not use terminology as defined in <xref target="RFC2119" /> and <xref target="RFC8174" />.  In this document, lowercase use of "must" and "should"
 indicates changes the RFC Editor will make automatically to conform
 with this Style Guide versus those that may be questioned if not
 applied.  The lowercase "must" indicates those changes that will be
@@ -226,7 +231,7 @@ reference for each citation used, and vice versa.</li>
    punctuation (!, ?, etc.), and should be in-line with the normal line of type.
             </t>
             <ul spacing="normal">
-              <li>Example: "See RFC 2119 <xref target="BCP14" format="default"/> for more information."</li>
+              <li>Example: "See RFC 2119 <xref target="RFC2119" format="default"/> for more information."</li>
             </ul>
           </li>
           <li>Cross-references within the body of the memo and to other RFCs
@@ -510,9 +515,9 @@ as Section 1.</t>
           <name>Requirements Language Section</name>
           <t>Some documents use certain capitalized words ("MUST", "SHOULD", etc.)
 to specify precise requirement levels for technical features.
-RFC 2119 <xref target="BCP14" format="default"/> defines a default interpretation of these
+<xref target="RFC2119"/> and <xref target="RFC8174"/> define a default interpretation of these
 capitalized words in IETF documents.  If this interpretation is used,
-RFC 2119 must be cited (as specified in RFC 2119) and included as a
+RFCs 2119 and 8174 must be cited (as specified in RFCs 2119 and 8174) and included as a
 normative reference.  Otherwise, the correct interpretation must be
 specified in the document.</t>
           <t>This section must appear as part of the body of the memo (as defined
@@ -665,8 +670,8 @@ group, the reference entry should include ALL of the RFCs comprising that
 sub-series in a reference grouping under a single citation tag [is it helpful to
 point them to 7991 or the like on how to do this here?].  The authors should
 refer to the specific RFC numbers as part of the text in the body of the
-document and cite the sub series number (for example, "see RFC 2119 of
-[BCP14]").  Inclusion of the URI to the STD or BCP info page (see Section 3.2.3
+document and cite the sub series number (for example, "see RFC 2026 of
+[BCP9]").  Inclusion of the URI to the STD or BCP info page (see Section 3.2.3
 of [RFC5741]) is recommended.  The text should appear as follows:</t>
             <t>See RFC 1034 [STD13].</t>
             <t>For an STD or BCP that contains one RFC:</t>
@@ -952,15 +957,30 @@ information in the Author's Address section.</t>
             <date/>
           </front>
         </reference>
-        <reference anchor="BCP14" target="https://www.rfc-editor.org/info/bcp14">
-          <front>
-            <title>Key words for use in RFCs to Indicate Requirement Levels</title>
-            <author initials="S." surname="Bradner" fullname="Scott Bradner"/>
-            <date year="1997" month="March"/>
-          </front>
-          <seriesInfo name="BCP" value="14"/>
-          <seriesInfo name="RFC" value="2119"/>
-        </reference>
+
+<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml"/>
+<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.8174.xml"/>	      
+
+<referencegroup anchor="BCP9" target="https://www.rfc-editor.org/info/bcp9">
+  <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2026.xml"/>
+  <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.5657.xml"/>
+  <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.6410.xml"/>
+  <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7100.xml"/>
+     <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7127.xml"/>
+     <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7475.xml"/>
+        <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.8789.xml"/>
+           <xi:include
+   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.9282.xml"/>
+</referencegroup>
+
+
         <reference anchor="BCP18" target="https://www.rfc-editor.org/info/bcp18">
           <front>
             <title>IETF Policy on Character Sets and Languages</title>
@@ -1306,7 +1326,8 @@ information in the Author's Address section.</t>
     </section>
     <section anchor="app-b" toc="default">
       <name>Acknowledgements</name>
-      <t>Much of this document was written by Heather Flanagan during her term as RFC Editor.</t>
+      <t>Much of this document was written by Heather Flanagan during her term as the RFC Series Editor (RSE). John Levine updated this document during his term as the Temporary RFC Series       
+Project Manager.</t>
     </section>
   </back>
 </rfc>
