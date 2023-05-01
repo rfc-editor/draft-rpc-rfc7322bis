@@ -365,9 +365,9 @@ an RFC is made by the stream, as is whether or not including author
 affiliation is required.</t>
           <t>The author's name (initial followed by family name) appears on the
 first line of the heading.  Some variation, such as additional
-initials or capitalization of family name, is acceptable.  Once the
-author has selected how their name should appear, they should use
-that display consistently in all of their documents.</t>
+initials or capitalization of family name, is acceptable. 
+It is recommended that an author name be consistent from RFC to RFC. 
+However, an author may update their name on subsequent RFCs.</t>
           <t>The total number of authors or editors on the first page is generally
 limited to five individuals and their affiliations.  If there is a
 request for more than five authors, the stream-approving body needs
