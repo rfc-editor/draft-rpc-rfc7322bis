@@ -33,7 +33,7 @@
     </author>
 	  
 	  
-    <date month="April" day="7" year="2023"/>
+    <date month="May" day="1" year="2023"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 and editorial policies currently in use for the RFC Series.  It
@@ -42,6 +42,9 @@ regarding the style and structure of an RFC.  Additional guidance is
 captured on a website that reflects the experimental nature of that
 guidance and prepares it for future inclusion in the RFC Style Guide.
 This document obsoletes RFC 7322, "RFC Style Guide".</t>
+	    <t>Note: This draft is being developed and discussed in the GitHub repo 
+	    <eref brackets="angle" target="https://github.com/rfc-editor/draft-rpc-rfc7322bis" />,
+	    but any substantive change should be discussed on <eref brackets="angle" target="rfc-interest@rfc-interest.org" />.</t>
     </abstract>
   </front>
   <middle>
@@ -939,6 +942,7 @@ information in the Author's Address section.</t>
       </references>
       <references>
         <name>Informative References</name>
+	      
         <reference anchor="ABBR" target="https://www.rfc-editor.org/rfc-style-guide/abbrev.expansion.txt">
           <front>
             <title>RFC Editor Abbreviations List</title>
@@ -964,6 +968,7 @@ information in the Author's Address section.</t>
 <referencegroup anchor="BCP9" target="https://www.rfc-editor.org/info/bcp9">
   <xi:include
    href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2026.xml"/>
+<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2223.xml"/>
   <xi:include
    href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.5657.xml"/>
   <xi:include
@@ -1278,6 +1283,20 @@ information in the Author's Address section.</t>
           </front>
         </reference>
 	<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7669.xml"/>
+	      
+	<reference anchor="RFC2223bis" target="https://datatracker.ietf.org/doc/html/draft-rfc-editor-rfc2223bis-08">
+     <front>
+       <title>Instructions to Request for Comments (RFC) Authors</title>
+       <author initials="J." surname="Reynolds" fullname="Joyce K. Reynolds" role="editor">
+         <organization />
+       </author>
+       <author initials="R." surname="Braden" fullname="Robert Braden" role="editor">
+         <organization />
+       </author>
+       <date day="1" month="August" year="2004" />
+     </front>
+     <seriesInfo name="Internet-Draft" value="draft-rfc-editor-rfc2223bis-08"/>
+   </reference>	   
       </references>
     </references>
     <section anchor="app-A" toc="default">
@@ -1326,8 +1345,8 @@ information in the Author's Address section.</t>
     </section>
     <section anchor="app-b" toc="default">
       <name>Acknowledgements</name>
-      <t>Much of this document was written by Heather Flanagan during her term as the RFC Series Editor (RSE). John Levine updated this document during his term as the Temporary RFC Series       
-Project Manager.</t>
+      <t>This document refers heavily to <xref target="RFC2223"/> and <xref target="RFC2223bis"/>; as such, we are grateful to the authors of those documents for putting their time and effort into the RFC Series.</t>
+<t>Much of this document was written by Heather Flanagan during her term as the RFC Series Editor (RSE).</t>
     </section>
   </back>
 </rfc>
