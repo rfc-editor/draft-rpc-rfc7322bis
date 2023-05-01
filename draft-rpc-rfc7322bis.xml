@@ -7,7 +7,7 @@
 <!ENTITY wj     "&#8288;">
 ]>
 
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-00" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
   <front>
     <title abbrev="RFC Style Guide (rfc7322bis)">RFC Style Guide</title>
     <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-00"/>
