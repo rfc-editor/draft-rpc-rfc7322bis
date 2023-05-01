@@ -42,8 +42,9 @@ regarding the style and structure of an RFC.  Additional guidance is
 captured on a website that reflects the experimental nature of that
 guidance and prepares it for future inclusion in the RFC Style Guide.
 This document obsoletes RFC 7322, "RFC Style Guide".</t>
-	    <t>Note: Please file suggested updates as PRs or issues in the GitHub repo <eref target="https://github.com/rfc-editor/draft-rpc-rfc7322bis">&lt;http
-s://github.com/rfc-editor/draft-rpc-rfc7322bis&gt;.</eref>.</t>
+	    <t>Note: This draft is being developed and discussed in the GitHub repo 
+	    <eref brackets="angle" target="https://github.com/rfc-editor/draft-rpc-rfc7322bis" />,
+	    but any substantive change should be discussed on <eref brackets="angle" target="rfc-interest@rfc-interest.org" />.</t>
     </abstract>
   </front>
   <middle>
