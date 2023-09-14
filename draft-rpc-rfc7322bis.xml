@@ -742,6 +742,7 @@ also later published as an RFC, then that RFC must also be listed.
 report is necessary:</t>
             <t>[ErrNumber]  RFC Errata, Erratum ID number, RFC number, &lt;https://www.rfc-editor.org/errata/eid#&gt;.</t>
             <t>[Err1912]  RFC Errata, Erratum ID 1912, RFC 2978, &lt;https://www.rfc-editor.org/errata/eid1912&gt;.</t>
+		  <t>Errata that are in the <eref="https://www.rfc-editor.org/errata-definitions/">Reported state</eref> should not be referenced; they are not considered stable.</t>
           </section>
           <section anchor="referencing-IANA" toc="default">
             <name>Referencing IANA Registries</name>
