@@ -158,13 +158,13 @@ block quotation.</t>
           </li>
         </ol>
         <section anchor="compounds" toc="default">
-          <name>RFCs as Compounds</name>
+          <name>RFC Citations as Compounds</name>
           <t>Whenever possible:
           </t>
           <ul spacing="normal">
             <li>Hyphenated compounds formed with RFC numbers should be avoided;
       this can be accomplished by: rewording the sentence (e.g., change "[RFC5011]-style
-      rollover" to "rollover as described in RFC 5011"). </li>
+      rollover" to "rollover as described in RFC 5011 [RFC5011]"). </li>
             <li>adding a note in either the Terminology or Conventions section mentioning
       the RFC so that other occurrences throughout the text will be understood by
       the reader to be in the style of said RFC (e.g., This document uses the term
