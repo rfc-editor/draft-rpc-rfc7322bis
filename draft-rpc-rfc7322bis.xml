@@ -698,14 +698,15 @@ of [RFC5741]) is recommended.  The text should appear as follows:</t>
          <https://www.rfc-editor.org/info/std#>
 ]]></artwork>
             <t>Example:</t>
-            <t>[STD13]   Mockapetris, P., "Domain names - concepts and
-             facilities", IETF, STD 13, RFC 1034, November 1987.</t>
-            <artwork name="" type="" align="left" alt=""><![CDATA[
-  Mockapetris, P., "Domain names - implementation and
-  specification", IETF, STD 13, RFC 1035, DOI 10.17487/RFC1035,
-  November 1987.
+<artwork name="" type="" align="left" alt=""><![CDATA[
+    [STD13]   Mockapetris, P., "Domain names - concepts and facilities", 
+              IETF, STD 13, RFC 1034, DOI 10.17487/RFC1034, November 1987.
+           
+              Mockapetris, P., "Domain names - implementation and 
+              specification", IETF, STD 13, RFC 1035, DOI 10.17487/RFC1035, 
+              November 1987.
 
-         <https://www.rfc-editor.org/info/std13>
+              <https://www.rfc-editor.org/info/std13>
 ]]></artwork>
             <t>Note - some RFCs contain an FYI sub-series number <xref target="FYI90" format="default"/> however, the FYI
 series was ended by RFC 6360.  RFCs that were published with an FYI sub-series
