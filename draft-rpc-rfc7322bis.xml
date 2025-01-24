@@ -7,33 +7,33 @@
 <!ENTITY wj     "&#8288;">
 ]>
 
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-01" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-02" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
   <front>
     <title abbrev="RFC Style Guide (rfc7322bis)">RFC Style Guide</title>
-    <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-01"/>
+    <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-02"/>
     <author initials="S." surname="Ginoza" fullname="Sandy Ginoza">
       <organization>RFC Production Center</organization>
       <address>
-        <email>sginoza@amsl.com</email>
+        <email>sginoza@staff.rfc-editor.org</email>
       </address>
     </author>
 
       <author initials="J." surname="Mahoney" fullname="Jean Mahoney">
       <organization>RFC Production Center</organization>
       <address>
-        <email>jmahoney@amsl.com</email>
+        <email>jmahoney@staff.rfc-editor.org</email>
       </address>
     </author>
 	  
       <author initials="A." surname="Russo" fullname="Alice Russo">
       <organization>RFC Production Center</organization>
       <address>
-        <email>arusso@amsl.com</email>
+        <email>arusso@staff.rfc-editor.org</email>
       </address>
     </author>
 	  
 	  
-    <date month="July" day="24" year="2024"/>
+    <date month="October" day="30" year="2024"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 and editorial policies currently in use for the RFC Series.  It
@@ -954,6 +954,9 @@ information in the Author's Address section.</t>
           <li>-00 to -01: Updated description regarding how to reference RFCs
            that are part of a subseries; added guidance that errata in
            Reported state should not be referenced.</li>
+           <li>-01 to -02: Clarified that an author may change their name on
+           subsequent RFCs; clarified the example of avoiding the use of a
+           citation in a compound; clarified the expansion of abbreviations.</li>
         </ul>
     </section>
   </middle>
