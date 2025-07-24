@@ -1,0 +1,7 @@
+# Ignore xml2rfc outputs:
+*.html
+*.txt
+# Ignore .refcache
+.refcache/
+# Other
+.DS_Store
