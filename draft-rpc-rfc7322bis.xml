@@ -36,7 +36,7 @@
     <date month="January" day="24" year="2025"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
-and editorial policies currently in use for the RFC Series.  It
+currently in use for the RFC Series.  It
 captures the RFC Editor's basic requirements and offers guidance
 regarding the style and structure of an RFC.  Additional guidance is
 captured on a website that reflects the experimental nature of that
@@ -54,8 +54,8 @@ This document obsoletes RFC 7322, "RFC Style Guide".</t>
 documents that are readable, clear, and consistent.  The basic formatting
 conventions for RFCs were established
 in the 1970s by the original RFC Editor, Jon Postel.  This document
-describes the fundamental and unique style conventions and editorial
-policies currently in use for the RFC Series <xref target="RFC4844" format="default"/> and is
+describes the fundamental and unique style conventions
+currently in use for the RFC Series <xref target="RFC4844" format="default"/> and is
 intended as a stable, infrequently updated reference for authors,
 editors, and reviewers.</t>
       <t>The RFC Editor also maintains a web portion of the Style Guide (see
@@ -957,6 +957,7 @@ information in the Author's Address section.</t>
            <li>-01 to -02: Clarified that an author may change their name on
            subsequent RFCs; clarified the example of avoiding the use of a
            citation in a compound; clarified the expansion of abbreviations.</li>
+           <li>-02 to -03: Removed mention of "editorial policies", which are set by the RSWG.</li>
         </ul>
     </section>
   </middle>
