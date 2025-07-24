@@ -10,7 +10,7 @@
 <rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-03" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
   <front>
     <title abbrev="RFC Style Guide (rfc7322bis)">RFC Style Guide</title>
-    <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-02"/>
+    <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-03"/>
     <author initials="S." surname="Ginoza" fullname="Sandy Ginoza">
       <organization>RFC Production Center</organization>
       <address>
@@ -958,7 +958,9 @@ information in the Author's Address section.</t>
            subsequent RFCs; clarified the example of avoiding the use of a
            citation in a compound; clarified the expansion of abbreviations.</li>
            <li>-02 to -03: Removed mention of "editorial policies", which are set by the RSWG;
-           updated "RFC Editor" to "RFC Production Center" or "RPC" where appropriate.</li>
+           updated "RFC Editor" to "RFC Production Center" or "RPC" where appropriate;
+           updated the Dispute Resolution section to point to
+           <xref target="I-D.editorial-rswg-rfc9280-updates" format="default"/>.</li>
         </ul>
     </section>
   </middle>
@@ -1213,26 +1215,6 @@ information in the Author's Address section.</t>
           <seriesInfo name="RFC" value="7841"/>
           <seriesInfo name="DOI" value="10.17487/RFC7841"/>
         </reference>
-        <reference anchor="RFC6635" target="https://www.rfc-editor.org/info/rfc6635" xml:base="https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.6635.xml">
-          <front>
-            <title>RFC Editor Model (Version 2)</title>
-            <author initials="O." surname="Kolkman" fullname="O. Kolkman" role="editor">
-              <organization/>
-            </author>
-            <author initials="J." surname="Halpern" fullname="J. Halpern" role="editor">
-              <organization/>
-            </author>
-            <author>
-              <organization>IAB</organization>
-            </author>
-            <date year="2012" month="June"/>
-            <abstract>
-              <t>The RFC Editor model described in this document divides the responsibilities for the RFC Series into three functions: the RFC Series Editor, the RFC Production Center, and the RFC Publisher. Internet Architecture Board (IAB) oversight via the RFC Series Oversight Committee (RSOC) is described, as is the relationship between the IETF Administrative Oversight Committee (IAOC) and the RSOC.  This document reflects the experience gained with "RFC Editor Model (Version 1)", documented in RFC 5620, and obsoletes that document.  This document is not an Internet Standards Track  specification; it is published for informational purposes.</t>
-            </abstract>
-          </front>
-          <seriesInfo name="RFC" value="6635"/>
-          <seriesInfo name="DOI" value="10.17487/RFC6635"/>
-        </reference>
         <reference anchor="RFC7990" target="https://www.rfc-editor.org/info/rfc7990" xml:base="https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7990.xml">
           <front>
             <title>RFC Format Framework</title>
@@ -1333,7 +1315,8 @@ information in the Author's Address section.</t>
        <date day="1" month="August" year="2004" />
      </front>
      <seriesInfo name="Internet-Draft" value="draft-rfc-editor-rfc2223bis-08"/>
-   </reference>	   
+   </reference>	
+   <xi:include href="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.editorial-rswg-rfc9280-updates.xml"/>   
       </references>
     </references>
     <section anchor="app-A" toc="default">
@@ -1342,16 +1325,8 @@ information in the Author's Address section.</t>
    of the RFC Style Guide.</t>
       <section anchor="app-a1" toc="default">
         <name>Dispute Resolution</name>
-        <t>There are competing rationales for some of the rules described in
-   this Guide, and the RPC has selected the ones that work best
-   for the Series.  However, at times, an author may have a disagreement
-   with the RFC Production Center (RPC) over the application of Style
-   Guide conventions.  In such cases, the authors should discuss their
-   concerns with the RPC.  If no agreement can be reached between the
-   RPC and the authors, the RFC Series Editor will, with input from the
-   appropriate stream-approving body, make a final determination.  If
-   further resolution is required, the dispute resolution process as
-   described in the RFC Editor Model <xref target="RFC6635" format="default"/> will be followed.</t>
+        <t>Dispute resolution is covered in RFC Editor Model (Version 3) 
+        <xref target="I-D.editorial-rswg-rfc9280-updates" format="default"/>.</t>
       </section>
       <section anchor="app-a2" toc="default">
         <name>Returning an I-D to the Document Stream</name>
