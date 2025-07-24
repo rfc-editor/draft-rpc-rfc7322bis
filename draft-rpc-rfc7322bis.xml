@@ -7,7 +7,7 @@
 <!ENTITY wj     "&#8288;">
 ]>
 
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-02" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-03" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
   <front>
     <title abbrev="RFC Style Guide (rfc7322bis)">RFC Style Guide</title>
     <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-02"/>
@@ -33,7 +33,7 @@
     </author>
 	  
 	  
-    <date month="January" day="24" year="2025"/>
+    <date month="July" day="24" year="2025"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 currently in use for the RFC Series.  It
@@ -957,7 +957,8 @@ information in the Author's Address section.</t>
            <li>-01 to -02: Clarified that an author may change their name on
            subsequent RFCs; clarified the example of avoiding the use of a
            citation in a compound; clarified the expansion of abbreviations.</li>
-           <li>-02 to -03: Removed mention of "editorial policies", which are set by the RSWG.</li>
+           <li>-02 to -03: Removed mention of "editorial policies", which are set by the RSWG;
+           updated "RFC Editor" to "RFC Production Center" or "RPC" where appropriate.</li>
         </ul>
     </section>
   </middle>
