@@ -37,7 +37,7 @@
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 currently in use for the RFC Series.  It
-captures the RFC Editor's basic requirements and offers guidance
+captures the RFC Production Center's basic requirements and offers guidance
 regarding the style and structure of an RFC.  Additional guidance is
 captured on a website that reflects the experimental nature of that
 guidance and prepares it for future inclusion in the RFC Style Guide.
@@ -55,33 +55,33 @@ documents that are readable, clear, and consistent.  The basic formatting
 conventions for RFCs were established
 in the 1970s by the original RFC Editor, Jon Postel.  This document
 describes the fundamental and unique style conventions
-currently in use for the RFC Series <xref target="RFC4844" format="default"/> and is
+currently in use by the RFC Production Center (RPC) for the RFC Series <xref target="RFC4844" format="default"/> and is
 intended as a stable, infrequently updated reference for authors,
 editors, and reviewers.</t>
-      <t>The RFC Editor also maintains a web portion of the Style Guide (see
+      <t>The RPC also maintains a web portion of the Style Guide (see
 Appendix A.3) that describes issues as they are raised and indicates
-how the RFC Editor intends to address them.  As new style issues
-arise, the RFC Editor will first address them on the web portion of
+how the RPC intends to address them.  As new style issues
+arise, the RPC will first address them on the web portion of
 the Style Guide <xref target="STYLE-WEB" format="default"/>.  These topics may become part of the RFC
 Style Guide when it is revised.</t>
       <t>The world of publishing has generally accepted rules for
 grammar, punctuation, capitalization, sentence length and complexity, etc.
-The RFC Editor generally follows these accepted
+The RPC generally follows these accepted
 rules as defined by the Chicago Manual of Style (CMOS) <xref target="CMOS" format="default"/>, with a
 few important exceptions to avoid ambiguity in complex technical
 prose and to handle mixtures of text and computer languages, or to
 preserve historical formatting rules.  This document presents these
-exceptions as applied or recommended by the RFC Editor.</t>
+exceptions as applied or recommended by the RPC.</t>
       <t>All RFCs begin as Internet-Drafts (also referred to as I-Ds), and a
 well-written and properly constructed Internet-Draft <xref target="ID-GUIDE" format="default"/>
-provides a strong basis for a good RFC.  The RFC Editor accepts
+provides a strong basis for a good RFC.  The RPC accepts
 Internet-Drafts from specified streams for publication [RFC4844] and
 applies the rules and guidelines for the RFC Series during the
 editorial process.</t>
     </section>
     <section anchor="rfc-editors-philosophy" toc="default">
-      <name>RFC Editor's Philosophy</name>
-      <t>Authors may find it helpful to understand the RFC Editor's goals
+      <name>RPC's Philosophy</name>
+      <t>Authors may find it helpful to understand the RPC's goals
 during the publication process, namely to:</t>
       <ul spacing="normal">
         <li>Prepare the document according to RFC style and format.</li>
@@ -96,8 +96,8 @@ for author review.</li>
       <t>a. the document,</t>
       <t>b. a cluster of documents <xref target="CLUSTER" format="default"/>, and</t>
       <t>c. the series of RFCs on the subject matter.</t>
-      <t>The editorial process of the RFC Editor is not an additional
-technical review of the document.  Where the RFC Editor may suggest
+      <t>The editorial process of the RPC is not an additional
+technical review of the document.  Where the RPC may suggest
 changes in wording for clarity and readability, it is up to the
 author, working group, or stream-approving body to determine whether
 the changes have an impact on the technical meaning of the document
@@ -105,25 +105,25 @@ the changes have an impact on the technical meaning of the document
 of the technical content being described in the document, it takes
 precedence over editorial conventions.</t>
       <t>The activity of editing sometimes creates a tension between author
-and editor.  The RFC Editor attempts to minimize this conflict for
+and editor.  The RPC attempts to minimize this conflict for
 RFC publication while continually striving to produce a uniformly
-excellent document series.  The RFC Editor refers to this fundamental
-tension as "editorial balance," and maintaining this balance is a
-continuing concern for the RFC Editor.  There is a prime directive
+excellent document series.  This fundamental
+tension is referred to as "editorial balance," and maintaining this balance is a
+continuing concern for the RPC.  There is a prime directive
 that must rule over grammatical conventions: do not change the
 intended meaning of the text.</t>
-      <t>If the RFC Editor cannot edit a document without serious risk of
+      <t>If the RPC cannot edit a document without serious risk of
 altering the meaning, it may be returned to the stream-approving body
 for review.  See Appendix A.2 for more information.</t>
     </section>
     <section anchor="rfc-style-conventions" toc="default">
       <name>RFC Style Conventions</name>
       <t>This Style Guide does not use terminology as defined in <xref target="RFC2119" /> and <xref target="RFC8174" />.  In this document, lowercase use of "must" and "should"
-indicates changes the RFC Editor will make automatically to conform
+indicates changes the RPC will make automatically to conform
 with this Style Guide versus those that may be questioned if not
 applied.  The lowercase "must" indicates those changes that will be
 applied automatically and are not at the discretion of the authors.
-The lowercase "should" indicates the RFC Editor's recommended use,
+The lowercase "should" indicates the RPC's recommended use,
 but conformance with the recommendations is not required; the RFC
 Editor may question whether the guidance may be applied.</t>
       <section anchor="language" toc="default">
@@ -266,7 +266,7 @@ an abbreviation that is so common that the readership of RFCs can be
 expected to recognize it immediately; examples include (but are not
 limited to) TCP, IP, SNMP, and HTTP.  The online list of
 abbreviations <xref target="ABBR" format="default"/> provides guidance.  Some cases are marginal, and
-the RFC Editor will make the final judgment, weighing obscurity
+the RPC will make the final judgment, weighing obscurity
 against complexity.</t>
         <t>Note: The online list of abbreviations is not exhaustive or
    definitive.  It is a list of abbreviations appearing in RFCs and
@@ -313,7 +313,7 @@ against complexity.</t>
       <name>Structure of an RFC</name>
       <t>A published RFC will largely contain the elements in the following
 list.  Some of these sections are required, as noted.  Those sections
-marked with "*" will be supplied by the RFC Editor during the
+marked with "*" will be supplied by the RPC during the
 editorial process when necessary. The rules for each of these elements are
 described in more detail below.</t>
       <artwork name="" type="" align="left" alt=""><![CDATA[
@@ -402,13 +402,13 @@ header when no affiliation is provided.</t>
           <name>ISSN: 2070-1721</name>
           <t>The RFC Series has been assigned an International Standard Serial
 Number of 2070-1721 <xref target="ISO3297" format="default"/>.  It will be included by the
-RFC Editor.</t>
+RPC.</t>
         </section>
         <section anchor="doi-10-17487" toc="default">
           <name>Digital Object Identifier 10.17487</name>
 	  <t>The RFC Series has been assigned a Digital Object Identifier prefix of
 	     10.17487 <xref target="RFC7669" format="default"/>.  A DOI will be assigned and included by the
-RFC Editor.</t>
+RPC.</t>
         </section>
         <section anchor="updates-and-obsoletes" toc="default">
           <name>Updates and Obsoletes</name>
@@ -436,7 +436,7 @@ abbreviation, as in the following example:</t>
                   Encoding Rules for the
   Common Routing Encapsulation Extension Protocol (CREEP)
 ]]></artwork>
-        <t>The RFC Editor recommends that documents describing a particular
+        <t>The RPC recommends that documents describing a particular
 company's private protocol should bear a title of the form "Foo's ...
 Protocol" (where Foo is a company name), to clearly differentiate it
 from a protocol of more general applicability.</t>
@@ -473,12 +473,12 @@ note to explain anything unusual about the process that led to the
 document's publication or to note a correction.  In this case, a
 stream note section will contain such a note.</t>
         <t>Additionally, an RFC Editor Note section may contain a note inserted
-by the RFC Editor to highlight special circumstances surrounding
+by the RPC to highlight special circumstances surrounding
 an RFC.</t>
       </section>
       <section anchor="status-of-this-memo-section" toc="default">
         <name>Status of This Memo Section</name>
-        <t>The RFC Editor will supply an appropriate "Status of This Memo" as
+        <t>The RPC will supply an appropriate "Status of This Memo" as
 defined in RFC  [RFC7841] and "Format for RFCs in the IAB Stream"
 <xref target="IAB-FORM" format="default"/>.</t>
       </section>
@@ -543,17 +543,17 @@ interoperability.  RFC 2119 says:</t>
           <t>For guidance on how to register IANA-related values or create new
 registries to be managed by IANA, see "Guidelines for Writing an IANA
 Considerations Section in RFCs" <xref target="BCP26" format="default"/>.</t>
-          <t>The RFC Editor will update text accordingly after the IANA
+          <t>The RPC will update text accordingly after the IANA
 assignments have been made.  It is helpful for authors to clearly
 identify where text should be updated to reflect the newly assigned
 values.  For example, the use of "TBD1", "TBD2", etc., is recommended
 in the IANA Considerations section and in the body of the memo.</t>
           <t>If the authors have provided values to be assigned by IANA, the
-RFC Editor will verify that the values inserted by the authors match
+RPC will verify that the values inserted by the authors match
 those that have actually been registered on the IANA site.  When
 writing a given value, consistent use of decimal or hexadecimal is
 recommended.</t>
-          <t>If any of the IANA-related information is not clear, the RFC Editor
+          <t>If any of the IANA-related information is not clear, the RPC
 will work with IANA to send queries to the authors to ensure that
 assignments and values are properly inserted.</t>
         </section>
@@ -612,7 +612,7 @@ subsection is required; the top-level section should say "Normative
 References" or "Informative References".</t>
           <t>Normative references to Internet-Drafts will cause publication of the
 RFC to be suspended until the referenced draft is also ready for
-publication; the RFC Editor will then update the entry to refer to
+publication; the RPC will then update the entry to refer to
 the RFC and publish both documents simultaneously.</t>
           <section anchor="referencing-rfcs" toc="default">
             <name>Referencing RFCs</name>
@@ -866,7 +866,7 @@ reference entry.</t>
       </section>
       <section anchor="appendices-section" toc="default">
         <name>Appendices Section</name>
-        <t>The RFC Editor recommends placing references before the Appendices.
+        <t>The RPC recommends placing references before the Appendices.
 Appendices should be labeled as "Appendix A.  Title", "A.1.  Title",
 "Appendix B.  Title", etc.</t>
       </section>
@@ -881,7 +881,7 @@ documents from which text was borrowed.</t>
         <name>Contributors Section</name>
         <t>This optional section acknowledges those who have made significant
 contributions to the document.</t>
-        <t>In a similar fashion to the Author's Address section, the RFC Editor
+        <t>In a similar fashion to the Author's Address section, the RPC
 does not make the determination as to who should be listed as a
 contributor to an RFC.  The determination of who should be listed as
 a contributor is made by the stream.</t>
@@ -970,7 +970,7 @@ information in the Author's Address section.</t>
           <front>
             <title>Web Portion of the Style Guide</title>
             <author>
-              <organization>RFC Editor</organization>
+              <organization>RFC Production Center</organization>
             </author>
             <date/>
           </front>
@@ -981,9 +981,9 @@ information in the Author's Address section.</t>
 	      
         <reference anchor="ABBR" target="https://www.rfc-editor.org/rfc-style-guide/abbrev.expansion.txt">
           <front>
-            <title>RFC Editor Abbreviations List</title>
+            <title>Abbreviations List</title>
             <author>
-              <organization>RFC Editor</organization>
+              <organization>RFC Production Center</organization>
             </author>
             <date/>
           </front>
@@ -1065,7 +1065,7 @@ information in the Author's Address section.</t>
           <front>
             <title>Clusters in the RFC Editor Queue</title>
             <author>
-              <organization>RFC Editor</organization>
+              <organization>RFC Production Center</organization>
             </author>
             <date/>
           </front>
@@ -1161,7 +1161,7 @@ information in the Author's Address section.</t>
           <front>
             <title>Reference Examples</title>
             <author>
-              <organization>RFC Editor</organization>
+              <organization>RFC Production Center</organization>
             </author>
             <date/>
           </front>
@@ -1304,7 +1304,7 @@ information in the Author's Address section.</t>
           <front>
             <title>Terms List</title>
             <author>
-              <organization>RFC Editor</organization>
+              <organization>RFC Production Center</organization>
             </author>
             <date/>
           </front>
@@ -1342,7 +1342,7 @@ information in the Author's Address section.</t>
       <section anchor="app-a1" toc="default">
         <name>Dispute Resolution</name>
         <t>There are competing rationales for some of the rules described in
-   this Guide, and the RFC Editor has selected the ones that work best
+   this Guide, and the RPC has selected the ones that work best
    for the Series.  However, at times, an author may have a disagreement
    with the RFC Production Center (RPC) over the application of Style
    Guide conventions.  In such cases, the authors should discuss their
@@ -1354,9 +1354,9 @@ information in the Author's Address section.</t>
       </section>
       <section anchor="app-a2" toc="default">
         <name>Returning an I-D to the Document Stream</name>
-        <t>For a given document, if the RFC Editor determines that it cannot be
+        <t>For a given document, if the RPC determines that it cannot be
    edited without serious risk of altering the meaning of the technical
-   content or if the RFC Editor does not have the resources to provide
+   content or if the RPC does not have the resources to provide
    the level of editing it needs, it may be sent back to the stream-
    approving body with a request to improve the clarity, consistency,
    and/or readability of the document.  This is not to be considered a
@@ -1366,13 +1366,13 @@ information in the Author's Address section.</t>
         <name>Revising This Document and Associated Web Pages</name>
         <t>The RFC Series is continually evolving as a document series.  This
    document focuses on the fundamental and stable requirements that must
-   be met by an RFC.  From time to time, the RFC Editor may offer less
+   be met by an RFC.  From time to time, the RPC may offer less
    formal recommendations that authors may apply at their discretion;
    these recommendations may be found on the RFC Editor website
-   "Guidelines for RFC Style" <xref target="STYLE-WEB" format="default"/>.</t>
+   "Web Portion of the Style Guide" <xref target="STYLE-WEB" format="default"/>.</t>
         <t>When a new recommendation is made regarding the overall structure and
    formatting of RFCs, it will be published on that page and accepted
-   for a period of time before the RFC Editor determines whether it
+   for a period of time before the RPC determines whether it
    should become part of the fundamental requirements in the RFC Style
    Guide or remain as a less formal recommendation.  That period of time
    will vary, in part depending on the frequency with which authors
