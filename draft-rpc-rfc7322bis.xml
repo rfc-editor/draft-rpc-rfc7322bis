@@ -588,11 +588,9 @@ informative, where normative references are essential to implementing
 or understanding the content of the RFC and informative references
 provide additional information.  More information about normative and
 informative references may be found in the IESG's statement
-"Normative and Informative References" <xref target="REFS" format="default"/>.  When both normative
+"Normative and Informative References" <xref target="REFS" format="default"/>.  Documents may include only a Normative References or Informative References section, or both. When both normative
 and informative references exist, the references section should be
 split into two subsections:</t>
-          <t>Templates are available on the RFC Editor website for the XML format of
-  certain references <xref target="REFEXAMPLE" format="default"/>.</t>
           <t>s.  References</t>
           <t>s.1.  Normative References</t>
           <artwork name="" type="" align="left" alt=""><![CDATA[
@@ -606,6 +604,7 @@ split into two subsections:</t>
         ...
         xxx
 ]]></artwork>
+<t>Detailed guidance about reference style and available templates are available under "Reference Style Guidance" availalbe at &lt;https://authors.ietf.org/en/reference-style-guidance&gt;.</t>
           <t>References will generally appear in alphanumeric order by citation
 tag.  Where there are only normative or informative references, no
 subsection is required; the top-level section should say "Normative
