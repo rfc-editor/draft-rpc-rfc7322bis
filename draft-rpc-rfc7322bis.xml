@@ -604,7 +604,7 @@ split into two subsections:</t>
         ...
         xxx
 ]]></artwork>
-<t>Detailed guidance about reference style and available templates are available under "Reference Style Guidance" availalbe at &lt;https://authors.ietf.org/en/reference-style-guidance&gt;.</t>
+<t>See "Reference Style Guidance" (https://authors.ietf.org/en/reference-style-guidance) for detailed guidance about reference style and templates.</t>
           <t>References will generally appear in alphanumeric order by citation
 tag.  Where there are only normative or informative references, no
 subsection is required; the top-level section should say "Normative
