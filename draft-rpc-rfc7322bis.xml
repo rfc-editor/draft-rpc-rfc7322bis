@@ -864,6 +864,17 @@ reference entry.</t>
                   <https://sourceforge.net/projects/linuxlite/>.
       ]]></artwork>
           </section>
+          <section anchor="living-standards" toc="default">
+            <t>RFCs often reference standards, specifications, and other similar documents which may
+              be continually updated and/or evolve over time. For example, the Web Hypertext
+              Application Technology Working Group (WHATWG) publishes "Living Standards", including
+              the HTML Living Standard, which they describe as "...standards that are continuously
+              updated as they receive feedback, either from web developers, browser vendors, tool
+              vendors, or indeed any other interested party" <xref target="WHATWG-FAQ" />.</t>
+            <t>When referencing these types of documents, authors must ensure the reader is able to
+              access a version of the standard as it existed at the time of publication. For
+              example, providing a commit snapshot URL for a WHATWG Living Standard. </t>
+          </section>
         </section>
       </section>
       <section anchor="appendices-section" toc="default">
@@ -1319,6 +1330,14 @@ information in the Author's Address section.</t>
      <seriesInfo name="Internet-Draft" value="draft-rfc-editor-rfc2223bis-08"/>
    </reference>	
    <xi:include href="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.editorial-rswg-rfc9280-updates.xml"/>   
+   <reference anchor="WHATWG-FAQ" target="https://whatwg.org/faq#living-standard">
+    <front>
+      <title>WHATWG - FAQ: What does “Living Standard” mean?</title>
+      <author>
+        <organization>WHATWG</organization>
+      </author>
+    </front>
+   </reference>
       </references>
     </references>
     <section anchor="app-A" toc="default">
