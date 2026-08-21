@@ -576,6 +576,9 @@ Modules" <xref target="MIB-SEC" format="default"/> and "yang module security con
         </section>
         <section anchor="references-section" toc="default">
           <name>References Section</name>
+          <t>The purpose of a reference entry is to identify the source of information cited in the
+            text. Reference entries must provide information that will lead readers to the
+            referenced sources, or, at least, allow readers to positively identify them.</t>
           <t>The reference list is solely for recording reference entries.
 Introductory text or annotations beyond necessary translations <xref target="RFC7997" format="default"/> are not allowed.</t>
           <t>The RFC style allows the use of any of a variety of reference styles,
