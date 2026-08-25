@@ -872,8 +872,8 @@ reference entry.</t>
               updated as they receive feedback, either from web developers, browser vendors, tool
               vendors, or indeed any other interested party" <xref target="WHATWG-FAQ" />.</t>
             <t>When referencing these types of documents, authors must ensure the reader is able to
-              access a version of the standard as it existed at the time of publication. For
-              example, providing a commit snapshot URL for a WHATWG Living Standard. </t>
+              access a version of the standard as it existed at the time of publication, for
+              example, by providing a commit snapshot URL for a WHATWG Living Standard. </t>
           </section>
         </section>
       </section>
