@@ -352,7 +352,7 @@ memo, the order above is required.  The section numbers above are for
 illustrative purposes; they are not intended to correspond to
 required numbering in an RFC.</t>
       <t>The elements preceding the body of the memo should not be numbered.
-Typically, the body of the memo will have numbered sections and the
+The body of the memo will have numbered sections and the
 appendices will be labeled with letters.  Any sections that appear
 after the appendices should not be numbered or labeled (e.g., see
 "Contributors" above).</t>
