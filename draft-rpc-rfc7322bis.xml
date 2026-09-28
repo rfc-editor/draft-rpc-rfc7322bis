@@ -969,7 +969,7 @@ information in the Author's Address section.</t>
       <name>References</name>
       <references>
         <name>Normative References</name>
-        <reference anchor="STYLE-WEB" target="tps://www.rfc-editor.org/rfc-style-guide/part2.html">
+        <reference anchor="STYLE-WEB" target="https://www.rfc-editor.org/rfc-style-guide/part2.html">
           <front>
             <title>Web Portion of the Style Guide</title>
             <author>
