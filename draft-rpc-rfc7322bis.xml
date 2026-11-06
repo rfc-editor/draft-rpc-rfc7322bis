@@ -580,12 +580,8 @@ Modules" <xref target="MIB-SEC" format="default"/> and "yang module security con
             text. Reference entries must provide information that will lead readers to the
             referenced sources, or, at least, allow readers to positively identify them.</t>
           <t>The reference list is solely for recording reference entries.
-Introductory text or annotations beyond necessary translations <xref target="RFC7997" format="default"/> are not allowed.</t>
-          <t>The RFC style allows the use of any of a variety of reference styles,
-as long as they are used consistently within a document.  However,
-where necessary, some reference styles have been described for use
-within the Series.  See the following subsections as well as the References
-section of this document.</t>
+          Introductory text or annotations beyond necessary translations <xref target="RFC7997" format="default"/> are not allowed.</t>
+          <t>Detailed guidance on reference style, specific reference formats and examples is available on authors.ietf.org <xref target="REFEXAMPLE"/>.</t>
           <t>Reference lists must indicate whether each reference is normative or
 informative, where normative references are essential to implementing
 or understanding the content of the RFC and informative references
@@ -607,7 +603,6 @@ split into two subsections:</t>
         ...
         xxx
 ]]></artwork>
-<t>See "Reference Style Guidance" (https://authors.ietf.org/en/reference-style-guidance) for detailed guidance about reference style and templates.</t>
           <t>References will generally appear in alphanumeric order by citation
 tag.  Where there are only normative or informative references, no
 subsection is required; the top-level section should say "Normative
@@ -925,9 +920,9 @@ information in the Author's Address section.</t>
             <date/>
           </front>
         </reference>
-        <reference anchor="REFEXAMPLE" target="https://www.rfc-editor.org/ref-example/">
+        <reference anchor="REFEXAMPLE" target="https://authors.ietf.org/en/reference-style-guidance">
           <front>
-            <title>Reference Examples</title>
+            <title>Reference Style Guidance</title>
             <author>
               <organization>RFC Production Center</organization>
             </author>
