@@ -578,10 +578,11 @@ Modules" <xref target="MIB-SEC" format="default"/> and "yang module security con
           <name>References Section</name>
           <t>The purpose of a reference entry is to identify the source of information cited in the
             text. Reference entries must provide information that will lead readers to the
-            referenced sources, or, at least, allow readers to positively identify them.</t>
+            referenced sources.  At a minimum,  enough information should be provided
+            so that a reader can identify and ideally locate the referenced resource.</t>
           <t>The reference list is solely for recording reference entries.
           Introductory text or annotations beyond necessary translations <xref target="RFC7997" format="default"/> are not allowed.</t>
-          <t>Detailed guidance on reference style, specific reference formats and examples is available on authors.ietf.org <xref target="REFEXAMPLE"/>.</t>
+          <t>Detailed guidance on reference style, including specific reference formats and examples, is available on authors.ietf.org <xref target="REFEXAMPLE"/>.</t>
           <t>Reference lists must indicate whether each reference is normative or
 informative, where normative references are essential to implementing
 or understanding the content of the RFC and informative references
