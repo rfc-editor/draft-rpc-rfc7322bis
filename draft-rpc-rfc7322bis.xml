@@ -586,7 +586,7 @@ Modules" <xref target="MIB-SEC" format="default"/> and "yang module security con
           <t>Reference lists must indicate whether each reference is normative or
 informative, where normative references are essential to implementing
 or understanding the content of the RFC and informative references
-provide additional information.  More information about normative and
+provide additional information. The distinction between normative and informative references is relevant in any IETF document, even if its intended status is Experimental or Informational. More information about normative and
 informative references may be found in the IESG's statement
 "Normative and Informative References" <xref target="REFS" format="default"/>.  Documents may include only a Normative References or Informative References section, or both. When both normative
 and informative references exist, the references section should be
