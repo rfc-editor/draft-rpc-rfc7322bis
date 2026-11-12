@@ -586,7 +586,7 @@ Modules" <xref target="MIB-SEC" format="default"/> and "yang module security con
           <t>Reference lists must indicate whether each reference is normative or
 informative, where normative references are essential to implementing
 or understanding the content of the RFC and informative references
-provide additional information. The distinction between normative and informative references is relevant in any IETF document, even if its intended status is Experimental or Informational. More information about normative and
+provide additional information. The distinction between normative and informative is required for all RFCs, regardless of stream or status. 
 informative references may be found in the IESG's statement
 "Normative and Informative References" <xref target="REFS" format="default"/>.  Documents may include only a Normative References or Informative References section, or both. When both normative
 and informative references exist, the references section should be
@@ -614,7 +614,7 @@ publication; the RPC will then update the entry to refer to
 the RFC and publish both documents simultaneously.</t>
 <section name="ref-stability" toc="default">
   <name>Reference Stability</name>
-  <section anchor="living-standards" toc="default">
+  <section anchor="ref-stability" toc="default">
   <name>Reference Accuracy Over Time</name>
             <t>RFCs often reference standards, specifications, and other similar documents which may
               be continually updated and/or evolve over time. For example, the Web Hypertext
@@ -629,7 +629,7 @@ the RFC and publish both documents simultaneously.</t>
   <section anchor="ref-versioning" toc="default">
   <name>References Versioning</name>
   <t>Authors should consider whether they are referring to the
-  technology specific to the current version of the specification or
+  technology specific to the version of the specification available at the time the document is being written and published or
   whether they want readers to always be pointed to the most current
   version. In most cases, references should include a reference to the
   existing specification and optionally include additional information
