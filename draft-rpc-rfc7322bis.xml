@@ -612,7 +612,7 @@ References" or "Informative References".</t>
 RFC to be suspended until the referenced draft is also ready for
 publication; the RPC will then update the entry to refer to
 the RFC and publish both documents simultaneously.</t>
-<section name="ref-stability" toc="default">
+<section>
   <name>Reference Stability</name>
   <section anchor="ref-stability" toc="default">
   <name>Reference Accuracy Over Time</name>
@@ -777,28 +777,6 @@ information in the Author's Address section.</t>
 
 <xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml"/>
 <xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.8174.xml"/>	      
-
-<referencegroup anchor="BCP9" target="https://www.rfc-editor.org/info/bcp9">
-  <xi:include
-   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2026.xml"/>
-<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2223.xml"/>
-  <xi:include
-   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.5657.xml"/>
-  <xi:include
-   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.6410.xml"/>
-  <xi:include
-   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7100.xml"/>
-     <xi:include
-   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7127.xml"/>
-     <xi:include
-   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.7475.xml"/>
-        <xi:include
-   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.8789.xml"/>
-           <xi:include
-   href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.9282.xml"/>
-</referencegroup>
-
-
         <reference anchor="BCP18" target="https://www.rfc-editor.org/info/bcp18">
           <front>
             <title>IETF Policy on Character Sets and Languages</title>
@@ -856,20 +834,7 @@ information in the Author's Address section.</t>
             <date year="2010"/>
           </front>
         </reference>
-        <reference anchor="FYI90" target="https://www.rfc-editor.org/info/fyi90">
-          <front>
-            <title>FYI on FYI: Introduction to the FYI Notes</title>
-            <author initials="G." surname="Malkin"/>
-            <author initials="J." surname="Reynolds"/>
-            <date year="1990" month="March"/>
-          </front>
-          <seriesInfo name="FYI" value="90"/>
-          <seriesInfo name="RFC" value="1150"/>
-          <annotation>
-          Housley, R., "Conclusion of FYI RFC Sub-Series", RFC 6360,
-          August 2011.
-          </annotation>
-        </reference>
+
         <reference anchor="IAB-FORM" target="https://www.rfc-editor.org/rfc-style-guide/iab-format.txt">
           <front>
             <title>Format for RFCs in the IAB Stream</title>
