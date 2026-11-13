@@ -776,7 +776,8 @@ information in the Author's Address section.</t>
         </reference>
 
 <xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml"/>
-<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.8174.xml"/>	      
+<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.8174.xml"/>	  
+<xi:include href="https://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2223.xml"/>		  
         <reference anchor="BCP18" target="https://www.rfc-editor.org/info/bcp18">
           <front>
             <title>IETF Policy on Character Sets and Languages</title>
