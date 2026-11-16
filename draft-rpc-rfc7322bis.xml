@@ -7,10 +7,10 @@
 <!ENTITY wj     "&#8288;">
 ]>
 
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-04" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-05" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
   <front>
     <title abbrev="RFC Style Guide (rfc7322bis)">RFC Style Guide</title>
-    <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-04"/>
+    <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-05"/>
     <author initials="S." surname="Ginoza" fullname="Sandy Ginoza">
       <organization>RFC Production Center</organization>
       <address>
@@ -24,16 +24,15 @@
         <email>jmahoney@staff.rfc-editor.org</email>
       </address>
     </author>
-	  
+
       <author initials="A." surname="Russo" fullname="Alice Russo">
       <organization>RFC Production Center</organization>
       <address>
         <email>arusso@staff.rfc-editor.org</email>
       </address>
     </author>
-	  
-	  
-    <date month="November" day="15" year="2026"/>
+
+    <date month="November" day="16" year="2026"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 currently in use for the RFC Series.  It
@@ -578,17 +577,17 @@ Modules" <xref target="MIB-SEC" format="default"/> and "yang module security con
           <name>References Section</name>
           <t>The purpose of a reference entry is to identify the source of information cited in the
             text. Reference entries must provide information that will lead readers to the
-            referenced sources.  At a minimum,  enough information should be provided
-            so that a reader can identify and ideally locate the referenced resource.</t>
+            referenced sources.  At a minimum, enough information should be provided
+            so that a reader can identify and ideally locate the referenced resource.</t>
           <t>The reference list is solely for recording reference entries.
           Introductory text or annotations beyond necessary translations <xref target="RFC7997" format="default"/> are not allowed.</t>
           <t>Detailed guidance on reference style, including specific reference formats and examples, is available on authors.ietf.org <xref target="REFEXAMPLE"/>.</t>
           <t>Reference lists must indicate whether each reference is normative or
 informative, where normative references are essential to implementing
-or understanding the content of the RFC and informative references
-provide additional information. The distinction between normative and informative is required for all RFCs, regardless of stream or status. 
-informative references may be found in the IESG's statement
-"Normative and Informative References" <xref target="REFS" format="default"/>.  Documents may include only a Normative References or Informative References section, or both. When both normative
+or understanding the content of the RFC, and informative references
+provide additional information (see the IESG's statement
+"Normative and Informative References" <xref target="REFS" format="default"/> for more details). The distinction between normative and informative is required for all RFCs, regardless of stream or status. 
+ Documents may include only a Normative References or Informative References section, or both. When both normative
 and informative references exist, the references section should be
 split into two subsections:</t>
           <t>s.  References</t>
@@ -734,7 +733,13 @@ information in the Author's Address section.</t>
            <li>-02 to -03: Removed mention of "editorial policies", which are set by the RSWG;
            updated "RFC Editor" to "RFC Production Center" or "RPC" where appropriate;
            updated the Dispute Resolution section to point to
-           <xref target="I-D.editorial-rswg-rfc9280-updates" format="default"/>.</li>
+           <xref target="RFC9920" format="default"/>.</li>
+           <li>-03 to -04: Moved info about reference formats to authors.ietf.org;
+            clarified that RFCs can have informative (only), normative (only), or
+            both sections; clarified that specification of informative and normative
+            references are required for RFCs of all statuses and streams; and added text
+            about reference stability and evolving resources.</li>
+           <li>-04 to -05: Updated the Change Log.</li> 
         </ul>
     </section>
   </middle>
@@ -918,100 +923,12 @@ information in the Author's Address section.</t>
             <date/>
           </front>
         </reference>
-        <reference anchor="RFC4844" target="https://www.rfc-editor.org/info/rfc4844" xml:base="https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.4844.xml">
-          <front>
-            <title>The RFC Series and RFC Editor</title>
-            <author initials="L." surname="Daigle" fullname="L. Daigle" role="editor">
-              <organization/>
-            </author>
-            <author>
-              <organization>Internet Architecture Board</organization>
-            </author>
-            <date year="2007" month="July"/>
-            <abstract>
-              <t>This document describes the framework for an RFC Series and an RFC Editor function that incorporate the principles of organized community involvement and accountability that has become necessary as the Internet technical community has grown, thereby enabling the RFC Series to continue to fulfill its mandate.  This memo provides information for the Internet community.</t>
-            </abstract>
-          </front>
-          <seriesInfo name="RFC" value="4844"/>
-          <seriesInfo name="DOI" value="10.17487/RFC4844"/>
-        </reference>
-        <reference anchor="RFC7841" target="https://www.rfc-editor.org/info/rfc7841" xml:base="https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7841.xml">
-          <front>
-            <title>RFC Streams, Headers, and Boilerplates</title>
-            <author initials="J." surname="Halpern" fullname="J. Halpern" role="editor">
-              <organization/>
-            </author>
-            <author initials="L." surname="Daigle" fullname="L. Daigle" role="editor">
-              <organization/>
-            </author>
-            <author initials="O." surname="Kolkman" fullname="O. Kolkman" role="editor">
-              <organization/>
-            </author>
-            <date year="2016" month="May"/>
-            <abstract>
-              <t>RFC documents contain a number of fixed elements such as the title page header, standard boilerplates, and copyright/IPR statements. This document describes them and introduces some updates to reflect current usage and requirements of RFC publication.  In particular, this updated structure is intended to communicate clearly the source of RFC creation and review.  This document obsoletes RFC 5741, moving detailed content to an IAB web page and preparing for more flexible output formats.</t>
-            </abstract>
-          </front>
-          <seriesInfo name="RFC" value="7841"/>
-          <seriesInfo name="DOI" value="10.17487/RFC7841"/>
-        </reference>
-        <reference anchor="RFC7990" target="https://www.rfc-editor.org/info/rfc7990" xml:base="https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7990.xml">
-          <front>
-            <title>RFC Format Framework</title>
-            <author initials="H." surname="Flanagan" fullname="H. Flanagan">
-              <organization/>
-            </author>
-            <date year="2016" month="December"/>
-            <abstract>
-              <t>In order to improve the readability of RFCs while supporting their archivability, the canonical format of the RFC Series will be transitioning from plain-text ASCII to XML using the xml2rfc version 3 vocabulary; different publication formats will be rendered from that base document.  With these changes comes an increase in complexity for authors, consumers, and the publisher of RFCs.  This document serves as the framework that provides the problem statement, lays out a road map of the documents that capture the specific requirements, and describes the transition plan.</t>
-            </abstract>
-          </front>
-          <seriesInfo name="RFC" value="7990"/>
-          <seriesInfo name="DOI" value="10.17487/RFC7990"/>
-        </reference>
-        <reference anchor="RFC7991" target="https://www.rfc-editor.org/info/rfc7991" xml:base="https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7991.xml">
-          <front>
-            <title>The "xml2rfc" Version 3 Vocabulary</title>
-            <author initials="P." surname="Hoffman" fullname="P. Hoffman">
-              <organization/>
-            </author>
-            <date year="2016" month="December"/>
-            <abstract>
-              <t>This document defines the "xml2rfc" version 3 vocabulary: an XML-based language used for writing RFCs and Internet-Drafts.  It is heavily derived from the version 2 vocabulary that is also under discussion.  This document obsoletes the v2 grammar described in RFC 7749.</t>
-            </abstract>
-          </front>
-          <seriesInfo name="RFC" value="7991"/>
-          <seriesInfo name="DOI" value="10.17487/RFC7991"/>
-        </reference>
-        <reference anchor="RFC7996" target="https://www.rfc-editor.org/info/rfc7996" xml:base="https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7996.xml">
-          <front>
-            <title>SVG Drawings for RFCs: SVG 1.2 RFC</title>
-            <author initials="N." surname="Brownlee" fullname="N. Brownlee">
-              <organization/>
-            </author>
-            <date year="2016" month="December"/>
-            <abstract>
-              <t>This document specifies SVG 1.2 RFC -- an SVG profile for use in diagrams that may appear in RFCs -- and considers some of the issues concerning the creation and use of such diagrams.</t>
-            </abstract>
-          </front>
-          <seriesInfo name="RFC" value="7996"/>
-          <seriesInfo name="DOI" value="10.17487/RFC7996"/>
-        </reference>
-        <reference anchor="RFC7997" target="https://www.rfc-editor.org/info/rfc7997" xml:base="https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7997.xml">
-          <front>
-            <title>The Use of Non-ASCII Characters in RFCs</title>
-            <author initials="H." surname="Flanagan" fullname="H. Flanagan" role="editor">
-              <organization/>
-            </author>
-            <date year="2016" month="December"/>
-            <abstract>
-              <t>In order to support the internationalization of protocols and a more diverse Internet community, the RFC Series must evolve to allow for the use of non-ASCII characters in RFCs.  While English remains the required language of the Series, the encoding of future RFCs will be in UTF-8, allowing for a broader range of characters than typically used in the English language.  This document describes the RFC Editor requirements and gives guidance regarding the use of non-ASCII characters in RFCs.</t>
-              <t>This document updates RFC 7322.  Please view this document in PDF form to see the full text.</t>
-            </abstract>
-          </front>
-          <seriesInfo name="RFC" value="7997"/>
-          <seriesInfo name="DOI" value="10.17487/RFC7997"/>
-        </reference>
+        <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.4844.xml" />
+        <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7841.xml" />
+        <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7990.xml" />
+        <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7991.xml" />
+        <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7996.xml" />
+        <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7997.xml" />
         <reference anchor="STD66" target="https://www.rfc-editor.org/info/std66">
           <front>
             <title>Uniform Resource Identifier (URI): Generic Syntax</title>
@@ -1056,10 +973,10 @@ information in the Author's Address section.</t>
      </front>
      <seriesInfo name="Internet-Draft" value="draft-rfc-editor-rfc2223bis-08"/>
    </reference>	
-   <xi:include href="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.editorial-rswg-rfc9280-updates.xml"/>   
+   <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9920.xml" />  
    <reference anchor="WHATWG-FAQ" target="https://whatwg.org/faq#living-standard">
     <front>
-      <title>WHATWG - FAQ: What does “Living Standard” mean?</title>
+      <title>WHATWG - FAQ: What does "Living Standard" mean?</title>
       <author>
         <organization>WHATWG</organization>
       </author>
@@ -1074,7 +991,7 @@ information in the Author's Address section.</t>
       <section anchor="app-a1" toc="default">
         <name>Dispute Resolution</name>
         <t>Dispute resolution is covered in RFC Editor Model (Version 3) 
-        <xref target="I-D.editorial-rswg-rfc9280-updates" format="default"/>.</t>
+        <xref target="RFC9920" format="default"/>.</t>
       </section>
       <section anchor="app-a2" toc="default">
         <name>Returning an I-D to the Document Stream</name>
@@ -1106,7 +1023,7 @@ information in the Author's Address section.</t>
     <section anchor="app-b" toc="default">
       <name>Acknowledgements</name>
       <t>This document refers heavily to <xref target="RFC2223"/> and <xref target="RFC2223bis"/>; as such, we are grateful to the authors of those documents for putting their time and effort into the RFC Series.</t>
-<t>Much of this document was written by Heather Flanagan during her term as the RFC Series Editor (RSE).  Thanks to Ted Harrison for his work on the updates to the references section and guidance now availalble on <eref target="https://authors.ietf.org/en/reference-style-guidance"/>.</t>
+<t>Much of this document was written by Heather Flanagan during her term as the RFC Series Editor (RSE).  Thanks to Ted Harrison for his work on the updates to the references section and guidance now available on <eref target="https://authors.ietf.org/en/reference-style-guidance"/>.</t>
     </section>
   </back>
 </rfc>
