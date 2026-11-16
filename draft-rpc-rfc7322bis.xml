@@ -735,6 +735,12 @@ information in the Author's Address section.</t>
            updated "RFC Editor" to "RFC Production Center" or "RPC" where appropriate;
            updated the Dispute Resolution section to point to
            <xref target="I-D.editorial-rswg-rfc9280-updates" format="default"/>.</li>
+           <li>-03 to -04: Moved info about reference formats to authors.ietf.org;
+            clarified that RFCs can have informative (only), normative (only), or
+            both sections; clarified that specification of informative and normative
+            references are required for RFCs of all statuses and streams; and added text
+            about reference stability and evolving resources.</li>
+           <li>-04 to -05: Updated the Change Log.</li> 
         </ul>
     </section>
   </middle>
