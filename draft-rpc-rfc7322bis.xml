@@ -585,9 +585,9 @@ Modules" <xref target="MIB-SEC" format="default"/> and "yang module security con
           <t>Detailed guidance on reference style, including specific reference formats and examples, is available on authors.ietf.org <xref target="REFEXAMPLE"/>.</t>
           <t>Reference lists must indicate whether each reference is normative or
 informative, where normative references are essential to implementing
-or understanding the content of the RFC and informative references
+or understanding the content of the RFC, and informative references
 provide additional information. The distinction between normative and informative is required for all RFCs, regardless of stream or status. 
-informative references may be found in the IESG's statement
+Informative references may be found in the IESG's statement
 "Normative and Informative References" <xref target="REFS" format="default"/>.  Documents may include only a Normative References or Informative References section, or both. When both normative
 and informative references exist, the references section should be
 split into two subsections:</t>
@@ -1106,7 +1106,7 @@ information in the Author's Address section.</t>
     <section anchor="app-b" toc="default">
       <name>Acknowledgements</name>
       <t>This document refers heavily to <xref target="RFC2223"/> and <xref target="RFC2223bis"/>; as such, we are grateful to the authors of those documents for putting their time and effort into the RFC Series.</t>
-<t>Much of this document was written by Heather Flanagan during her term as the RFC Series Editor (RSE).  Thanks to Ted Harrison for his work on the updates to the references section and guidance now availalble on <eref target="https://authors.ietf.org/en/reference-style-guidance"/>.</t>
+<t>Much of this document was written by Heather Flanagan during her term as the RFC Series Editor (RSE).  Thanks to Ted Harrison for his work on the updates to the references section and guidance now available on <eref target="https://authors.ietf.org/en/reference-style-guidance"/>.</t>
     </section>
   </back>
 </rfc>
