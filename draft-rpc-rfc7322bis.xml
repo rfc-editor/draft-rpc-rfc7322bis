@@ -24,15 +24,14 @@
         <email>jmahoney@staff.rfc-editor.org</email>
       </address>
     </author>
-	  
+
       <author initials="A." surname="Russo" fullname="Alice Russo">
       <organization>RFC Production Center</organization>
       <address>
         <email>arusso@staff.rfc-editor.org</email>
       </address>
     </author>
-	  
-	  
+
     <date month="November" day="16" year="2026"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
@@ -578,8 +577,8 @@ Modules" <xref target="MIB-SEC" format="default"/> and "yang module security con
           <name>References Section</name>
           <t>The purpose of a reference entry is to identify the source of information cited in the
             text. Reference entries must provide information that will lead readers to the
-            referenced sources.  At a minimum,  enough information should be provided
-            so that a reader can identify and ideally locate the referenced resource.</t>
+            referenced sources.  At a minimum, enough information should be provided
+            so that a reader can identify and ideally locate the referenced resource.</t>
           <t>The reference list is solely for recording reference entries.
           Introductory text or annotations beyond necessary translations <xref target="RFC7997" format="default"/> are not allowed.</t>
           <t>Detailed guidance on reference style, including specific reference formats and examples, is available on authors.ietf.org <xref target="REFEXAMPLE"/>.</t>
@@ -977,7 +976,7 @@ information in the Author's Address section.</t>
    <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9920.xml" />  
    <reference anchor="WHATWG-FAQ" target="https://whatwg.org/faq#living-standard">
     <front>
-      <title>WHATWG - FAQ: What does “Living Standard” mean?</title>
+      <title>WHATWG - FAQ: What does "Living Standard" mean?</title>
       <author>
         <organization>WHATWG</organization>
       </author>
