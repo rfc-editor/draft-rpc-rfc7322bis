@@ -7,10 +7,10 @@
 <!ENTITY wj     "&#8288;">
 ]>
 
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-03" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-rpc-rfc7322bis-04" category="info" submissionType="editorial" obsoletes="7322" updates="" xml:lang="en" tocInclude="true" symRefs="true" sortRefs="true" version="3">
   <front>
     <title abbrev="RFC Style Guide (rfc7322bis)">RFC Style Guide</title>
-    <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-03"/>
+    <seriesInfo name="Internet-Draft" value="draft-rpc-rfc7322bis-04"/>
     <author initials="S." surname="Ginoza" fullname="Sandy Ginoza">
       <organization>RFC Production Center</organization>
       <address>
@@ -33,7 +33,7 @@
     </author>
 	  
 	  
-    <date month="July" day="24" year="2025"/>
+    <date month="November" day="15" year="2026"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 currently in use for the RFC Series.  It
@@ -1106,7 +1106,7 @@ information in the Author's Address section.</t>
     <section anchor="app-b" toc="default">
       <name>Acknowledgements</name>
       <t>This document refers heavily to <xref target="RFC2223"/> and <xref target="RFC2223bis"/>; as such, we are grateful to the authors of those documents for putting their time and effort into the RFC Series.</t>
-<t>Much of this document was written by Heather Flanagan during her term as the RFC Series Editor (RSE).</t>
+<t>Much of this document was written by Heather Flanagan during her term as the RFC Series Editor (RSE).  Thanks to Ted Harrison for his work on the updates to the references section and guidance now availalble on <eref target="https://authors.ietf.org/en/reference-style-guidance"/>.</t>
     </section>
   </back>
 </rfc>
